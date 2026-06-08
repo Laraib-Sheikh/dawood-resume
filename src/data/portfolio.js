@@ -6,8 +6,8 @@ export const profile = {
   email: 'dawooddogar26@gmail.com',
   phone: '+92 336 442 2994',
   location: 'Pakistan',
-  linkedin: 'https://linkedin.com',
-  github: 'https://github.com',
+  linkedin: 'https://www.linkedin.com/in/dawoodrizwan/',
+  github: 'https://github.com/dawoodrizwan',
   summary:
     'AI Researcher with experience at NUST SEECS delivering funded research and industry-driven AI solutions across Remote Sensing, Healthcare, and Education. Skilled in building end-to-end intelligent systems using Large Language Models, Generative AI, and modern ML frameworks, with strong expertise in Python, deep learning, and scalable backend development. Passionate about translating research into production-ready applications through data-driven problem solving and robust system design.',
 }
