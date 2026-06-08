@@ -1,0 +1,75 @@
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+  padding: 0.45rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  color: white;
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-tag {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  background: rgba(96, 165, 250, 0.15);
+  color: var(--accent-bright);
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.project-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  flex: 1;
+  line-height: 1.65;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.stack-item {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  background: #1e293b;
+  border-radius: 6px;
+  color: var(--text-muted);
+}
